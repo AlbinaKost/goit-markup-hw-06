@@ -116,23 +116,45 @@ img {
     background: #2E2F42; 
     margin: 0 auto;
     padding: 72px 0;
-    background-image:  linear-gradient( to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7) ),  url(../images/peopleoffice.jpg);
+    background-image:  linear-gradient( to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7) ),  url(../images/back/back-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 @media screen and (min-width: 768px) {
   .hero-class {
+    background-image:  linear-gradient( to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7) ),  url(../images/back/back-tablet.jpg);
     max-width: 768px;
     padding: 112px 0;
   }
+  @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero-class {
+    background-image: linear-gradient(to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/back/back-tablet-2x.jpg);
+  }
+}
 }
 
 @media screen and (min-width: 1158px) {
-  .hero-class {
+   .hero-class {
+    background-image:  linear-gradient( to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7) ),  url(../images/back/back-desktop.jpg);
     max-width: 1440px;
     padding: 188px 0;
   }
+  @media (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+  .hero-class {
+    background-image: linear-gradient(to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/back/back-desktop-2x.jpg);
+  }
+}
 }
 
  
@@ -1160,6 +1182,15 @@ margin-bottom: 8px;
   margin-left: 16px; 
 }
 
-
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero-class {
+    background-image: linear-gradient(to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/back/back-mobile-2x.jpg);
+  }
+}
 
 
