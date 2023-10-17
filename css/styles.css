@@ -221,7 +221,7 @@ img {
  .address-list:hover { color: #404bbf; }
  .address-list:focus { color: #404bbf; }
 
-/* ? Mob-menu */
+/* Mob-menu */
 .mob-menu {
   width: 100vw;
   height: 100vh;
