@@ -257,10 +257,7 @@ img {
   visibility: hidden;
   pointer-events: none;
 }
-.icon-item {
-  width: 40px;
-  height: 40px;
-}
+
 
 .mob-menu > .modal-button-close {
   background-color: transparent;
@@ -326,11 +323,13 @@ img {
   color: #434455;
 }
 
-.mob-menu-social-list {
+.mob-menu-adress-list {
   display: flex;
   gap: 40px;
 }
-
+.adress {
+  font-style: normal;
+}
 
  .hero-title { 
   color: #ffffff;
