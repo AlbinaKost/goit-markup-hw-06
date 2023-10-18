@@ -28,7 +28,10 @@
   align-items: center;
 }
 
+.address {
+  font-style: normal;
 
+}
   
 .header-menu-button {
   width: 24px;
@@ -214,8 +217,7 @@ img {
  
 
 
- .adress {
-  margin-left: auto;
+ .adress { 
   font-style: normal;
  }
  .address-list {
@@ -328,6 +330,7 @@ img {
   gap: 40px;
 }
 .adress {
+  padding-left: 0;
   font-style: normal;
 }
 
@@ -770,7 +773,7 @@ margin-bottom: 8px;
   color: #F4F4FD;
  }
 .footer-list {
-  margin-bottom: 72px;;
+ 
 }
  .footer-html {
   display: flex;
@@ -811,11 +814,11 @@ margin-bottom: 8px;
  }
 
 .logo-footer {
-  margin-bottom: 72px;;
+  
 }
 @media screen and (min-width: 1158px) {
   .logo-footer {
-    margin-right: 120px;
+    margin-right: 120px;;
   }
 }
 .paragraph-media {
